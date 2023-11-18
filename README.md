@@ -12,21 +12,25 @@ script for recommending shows to watch
 
 ```bash
 python recommend_movie.py
+```
 
 ## Dependencies
-
+```bash
 - spacy==3.1.3
 - en-core-web-md==3.1.0
 - you can also install using requirements.txt
+```
 
 ## Docker Usage
 
 1. Build the Docker image:
 ```bash
 docker build -t watch_next
+```
 
 ```bash
 docker run -it watch_next
+```
 
 
 
